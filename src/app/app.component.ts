@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'horaDdecodarangular2023';
+  title:string = 'horaDecodarangular2023';
 }
