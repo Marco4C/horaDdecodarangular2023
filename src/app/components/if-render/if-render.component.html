@@ -1,10 +1,10 @@
 <div class="class">
   <p>if-render works!</p>
   <p *ngIf="canShow">canshow=true</p>
-  <span *ngIf="name === 'Marco'; else nameNotFound">name='Marco'</span>
+  <p *ngIf="name === 'Marco'; else nameNotFound">name='Marco'</p>
   <ng-template #nameNotFound>
     <div>
-      <h2>O nome não foi encontrado</h2>
+      <p>O nome não foi encontrado</p>
     </div>
   </ng-template>
 

@@ -1,8 +1,10 @@
 <div class="class">
-  <h2>Animais:</h2>
+  <p>Animais:</p>
   <ul>
     <li *ngFor="let animal of animals">
-      Animal: {{animal.name}} | Tipo: {{animal.type}}
+      {{animal.name}}
+      <button (click)="showAge(animal)">Mostrar!</button>
     </li>
   </ul>
+  <p>{{ animalDetails }}</p>
 </div>
